@@ -4,4 +4,11 @@ server:
 spring:
   application:
     name: mail
+  redis:
+    database: 0
+    host: 192.168.206.13
+    port: 6379
+    pool:
+      max-active: 8
+      max-wait: -1
   
